@@ -1,6 +1,7 @@
 ﻿/*
 **  版本：v1.0 2016.8.29 upload by Xiong
-**  功能：循环不断地向服务器发送一条消息，并从服务器接收一条消息，遇到exit结束连接
+**  功能：循环不断地向服务器发送一条由控制台输入的消息，并从服务器接收一条消息，
+**        遇到exit结束连接，采用TCP连接发送数据
 **  环境：Visual Studio 2015 compiler on Windows 7 sp1
 **  用法：sendAndRecvMessage.exe server_address port
 **  注意：服务器ip与端口之间没有':'号
@@ -38,9 +39,7 @@ int main(int argc, char *argv[])
             printf("[ECHO] invalid address\n");
             return -1;
         }
-    }
-
-    
+    }    
 
     //初始化WinSock 2.2
     printf("\nInitialising Winsock...\n");
