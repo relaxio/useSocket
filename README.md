@@ -25,6 +25,7 @@
 >* __功能__：接收来自客户端的消息，显示并回发给客户端，遇到`"exit"`结束连接，分别采用TCP、UDP协议接收数据，TCP对应接收TCP客户端发来的数据，UDP对应接收UDP客户端发来的数据。
 * __用法__：`startTcpServer.exe server_address port`
 `startUdpServer.exe server_address port`
+`selectServer.exe server_address port`
 * __注意__：服务器ip与端口之间没有':'号，'`0.0.0.0`'表示所有ip地址
 
 [16082901]: forWindows/client/tcp/console-v1.0/sendAndRecvMessage.c
