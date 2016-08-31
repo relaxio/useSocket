@@ -15,7 +15,4 @@ lpWSAData             指向WSADATA数据结构，用于接收Windows Sockets实
 
 * Step5. 有连接到达时，接收连接请求（客户端通过`connect`调用），调用`accept` 或 `WSAAccept`，创建临时连接套接字
 
-* Step6. 在连接套接字上进行数据收发操作
-
-接收数据 `recv` 或者 `WSARecv`  
-发送数据 `send` 或者 `WSASend`
+* Step6. 在连接套接字上进行数据收发操作，接收数据调用 `recv` 或者 `WSARecv` ，发送数据调用 `send` 或者 `WSASend`
