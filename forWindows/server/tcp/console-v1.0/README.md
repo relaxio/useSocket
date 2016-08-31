@@ -4,9 +4,10 @@
 * Step1. 对WinSock库进行初始化，调用`WSAStartup`函数;
 ```c
 int WSAStartup(WORD wVersionRequested, LPWSADATA lpWSAData);
-wVersionRequested     Windows Sockets最高版本，高字节副版本号，低字节主版本号  
-lpWSAData             指向WSADATA数据结构，用于接收Windows Sockets实现细节
 ```
+>wVersionRequested     Windows Sockets最高版本，高字节副版本号，低字节主版本号  
+>lpWSAData             指向WSADATA数据结构，用于接收Windows Sockets实现细节
+
 * Step2. 创建用于监听的套接字，调用`socket` 或者 `WSASocket`
 
 * Step3. 绑定套接字，调用`bind`
