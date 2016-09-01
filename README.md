@@ -11,7 +11,9 @@
 ### 简单入门
 `forWindows`
 >* __环境__：Visual Studio 2015 compiler on Windows 7 sp1
-* __版本__：v1.0 2016.8.29 upload by Xiong
+* __版本__：
+  - v1.0 2016.8.29 upload by Xiong  
+  - v1.1 2016.8.31 upload by Xiong
 
 `forWindows`[/client/__tcp__/console-v1.0/sendAndRecvMessage.c][16082901]  
 `forWindows`[/client/__ucp__/console-v1.0/sendAndRecvMessage.c][16082902]
