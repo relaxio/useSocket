@@ -1,5 +1,4 @@
 ## 套接字编程
-ceshi
 ### 总览
 + 简单入门
   + [forWindows/client/tcp/console-v1.0/sendAndRecvMessage.c][16082901]
